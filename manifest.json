@@ -1,0 +1,12 @@
+{
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "description": "Sample Chrome extension to demo Rich Notifications API.",
+    "icons": {"128": "icon.png"},
+    "manifest_version": 2,
+    "name": "Rich Notification Sample",
+    "permissions": ["notifications", "https://www.google.com/"],
+    "version": "0.1"
+}
